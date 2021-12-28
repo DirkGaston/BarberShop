@@ -1,0 +1,30 @@
+.bio img{
+    border-radius: 500px;
+    border: none;
+    width: 15rem;
+    margin-block: 5rem;
+}
+
+@media (max-width: 760px){
+    .bio{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bio__NameMobile{
+        padding-bottom: 7rem;
+    }
+
+    .bio img{
+        border-radius: 500px;
+        border: none;
+        width: 13rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.bio .card .row{
+    display: inline-flex;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap');
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__title{
+    font-family: 'Playfair Display', serif;
+    font-size: $xx-large;
+    font-weight: 900;
+    font-style: italic;
+}
+
+@media (max-width:570px){
+
+    .header__title{
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        font-weight: 900;
+        font-style: italic;
+    }
+}
+
+.arrowdown i{
+    font-size: 60px;    
+}
+
+.navbar i{
+    color: white;
+    font-size: 40px;
+}
+
+.post__Text{
+    font-family: 'Roboto', sans-serif;
+    font-size: $medium;
+    font-weight: 400;
+    color: $postText;
+    line-height: 3rem;
+}
+
+.post__Text p span{
+    color: $postText2;
+}
+
+.post__Text--date{
+    font-family: 'Playfair Display', serif;
+    font-size: $large;
+    font-weight: 400;
+    color: $postDate;
+}
+
+.card-title{
+    font-family: 'Playfair Display', serif;
+    font-size: $x-large;
+    font-weight: 900;
+    font-style: italic;
+    color: black;
+}
+
+.card-link a{
+    font-family: 'Roboto', sans-serif;
+    font-size: $x-large;
+    font-weight: 400;
+    color: $link-color1 !important;
+    line-height: 3rem;
+    text-decoration: none !important;
+
+    &:hover{
+        color: $link-colorHover !important;
+    }
+
+    &:active{
+        color: $link-colorActive !important;
+    }
+}
+
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: $medium;
+    font-weight: 400;
+    color: $postText;
+    line-height: 3rem;
+}

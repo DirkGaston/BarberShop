@@ -1,0 +1,14 @@
+.post{
+    margin-inline: 5rem;
+}
+
+.buttons{
+    margin-bottom: 5rem;
+}
+
+@media (max-width:760px){
+    .buttons{
+        text-align: center;
+
+    }
+}

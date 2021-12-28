@@ -1,0 +1,25 @@
+.navbar{
+    background-color: $bgcolor1 !important;
+
+    &__logo{
+        width: 100px
+    }
+
+    .nav-item{
+        padding-inline: 8px;
+    }
+
+    .nav-link{
+        color: $navbtn1;
+
+            &:hover{
+                color: $navbtnhover;
+            }
+    }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}

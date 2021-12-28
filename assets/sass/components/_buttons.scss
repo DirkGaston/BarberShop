@@ -1,0 +1,19 @@
+.btn{
+ background-color: $buttonbg !important;   
+ margin-top: 5rem;
+ display: inline-block;
+
+    &:hover{
+        background-color: $buttonbghover !important;
+        border: none;
+    }
+
+    &:focus{
+        border-color: $buttonbghover;
+        border-width: 1px;
+        background-color: $buttonbg;
+
+    }
+
+}
+
